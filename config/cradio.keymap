@@ -82,9 +82,9 @@
 		
 		right_layer {
 		bindings = <
-		&none  &none   &none  &kp N0      &kp CAPS                      &none  &none     &kp UP    &none      &none 
-		&none  &none   &none  &kp EQUAL   &kp RET                       &none  &kp LEFT  &kp DOWN  &kp RIGHT  &none
-		&none  &none   &none  &kp MINUS   &kp ESC                       &none  &kp HOME  &kp PG_DN &kp PG_UP  &kp END
+		&bt BT_CLR    &none   &none  &kp N0      &kp CAPS                      &none  &none     &kp UP    &none      &none 
+		&bt BT_SEL 2  &none   &none  &kp EQUAL   &kp RET                       &none  &kp LEFT  &kp DOWN  &kp RIGHT  &none
+		&bt BT_SEL 1  &none   &none  &kp MINUS   &kp ESC                       &none  &kp HOME  &kp PG_DN &kp PG_UP  &kp END
 		                      &none       &kp BSLH                      &none  &none 
 		>;
 		};	
