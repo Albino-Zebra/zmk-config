@@ -47,8 +47,8 @@
        		left_layer {
 		bindings = <
 		&kp LPAR    &kp N7    &kp N8    &kp N9    &kp RPAR              &kp ESC &kp F7 &kp F8 &kp F9  &kp F12 
-		&kp SEMI    &kp N4    &kp N5    &kp N6    &kp EQUAL             &kp ESC  &kp F4 &kp F5 &kp F6  &kp F11 
-		&kp GRAVE   &kp N1    &kp N2    &kp N3    &kp MINUS             &kp RET  &kp F1 &kp F2 &kp F3  &kp F10 
+		&kp SEMI    &kp N4    &kp N5    &kp N6    &kp EQUAL             &kp RET  &kp F4 &kp F5 &kp F6  &kp F11 
+		&kp GRAVE   &kp N1    &kp N2    &kp N3    &kp MINUS             &kp ESC  &kp F1 &kp F2 &kp F3  &kp F10 
 		                                &kp N0    &kp DOT               &none    &kp DEL 
 		>;
 		};
@@ -56,8 +56,8 @@
 		right_layer {
 		bindings = <
 		&bt BT_CLR    &none   &none  &kp N0      &kp ESC                      &none  &none     &kp UP    &none      &none 
-		&bt BT_SEL 2  &none   &none  &kp EQUAL   &kp ESC                       &none  &kp LEFT  &kp DOWN  &kp RIGHT  &none
-		&bt BT_SEL 1  &none   &none  &kp MINUS   &kp RET                       &none  &kp HOME  &kp PG_DN &kp PG_UP  &kp END
+		&bt BT_SEL 2  &none   &none  &kp EQUAL   &kp RET                       &none  &kp LEFT  &kp DOWN  &kp RIGHT  &none
+		&bt BT_SEL 1  &none   &none  &kp MINUS   &kp ESC                       &none  &kp HOME  &kp PG_DN &kp PG_UP  &kp END
 		                      &none       &kp BSLH                      &none  &none 
 		>;
 		};	
