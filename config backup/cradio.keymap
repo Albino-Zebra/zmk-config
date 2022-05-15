@@ -24,36 +24,7 @@
             bindings = <&kp ESC>;
         };
         
-         combo_tab {
-            timeout-ms = <50>;
-            key-positions = <10 11>;
-            bindings = <&kp TAB>;
-        };
-        
-            combo_ralt {
-            timeout-ms = <50>;
-            key-positions = <17 16>;
-            bindings = <&kp RALT>;
-        };
-        
-                    combo_lalt {
-            timeout-ms = <50>;
-            key-positions = <11 12>;
-            bindings = <&kp LALT>;
-        };
-        
-                           combo_lgui {
-            timeout-ms = <50>;
-            key-positions = <12 13>;
-            bindings = <&kp LGUI>;
-        };
-        
-        
-           combo_rgui {
-            timeout-ms = <50>;
-            key-positions = <17 18>;
-            bindings = <&kp RGUI>;
-        };
+         
         
 
         
@@ -64,37 +35,37 @@
                 
        		default_layer {
 		bindings = <
-		&kp Q &kp W &kp E &kp R &kp T 						&kp Y &kp U  &kp I    &kp O   &kp P 
-		&mt LGUI A &mt LALT S &mt LCTRL D &mt LSHFT F &mt RALT G 			&mt RALT H &mt LSHFT J &mt LCTRL K &mt LALT L &mt LGUI QUOT
-		&kp Z &kp X &kp C &kp V &kp B				                 &kp N &kp M  &kp CMMA &kp DOT &kp FSLH
-          				&lt 2 TAB &kp SPC  				&lt 1 SPC &lt 3 BSPC 
+		&kp Q      &kp W      &kp E       &kp R       &kp T             &kp Y      &kp U       &kp I       &kp O      &kp P 
+		&mt LGUI A &mt LALT S &mt LCTRL D &mt LSHFT F &mt RALT G        &mt RALT H &mt LSHFT J &mt LCTRL K &mt LALT L &mt LGUI QUOT
+		&kp Z      &kp X      &kp C       &kp V       &kp B             &kp N      &kp M       &kp CMMA    &kp DOT    &kp FSLH
+          	                                  &lt 2 TAB   &kp SPC           &lt 1 SPC  &lt 3 BSPC 
 		>;
 		};
 
        		left_layer {
 		bindings = <
-		&kp NUM_1  &kp N7    &kp N8    &kp N9    &kp NUM_5	                 &kp NUM_6 &kp NUM_7 &kp UP &kp NUM_9 &kp NUM_0 
-		&kp TAB    &kp N4    &kp N5    &kp N6     &kp HASH 		&kp MINUS &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL 
-		&kp ESC    &kp N1    &kp N2    &kp N3  &kp TILDE2 	                 &kp RET &kp GRAVE &kp LBKT &kp RBKT  &kp DEL 
-					    &kp DOT  &kp N0  					&kp RGUI &mo 2 
+		&kp LPAR    &kp N7    &kp N8    &kp N9    &kp RPAR              &kp ESC &kp F7 &kp F8 &kp F9  &kp F12 
+		&kp SEMI    &kp N4    &kp N5    &kp N6    &kp EQUAL             &kp ESC  &kp F4 &kp F5 &kp F6  &kp F11 
+		&kp GRAVE   &kp N1    &kp N2    &kp N3    &kp MINUS             &kp RET  &kp F1 &kp F2 &kp F3  &kp F10 
+		                                &kp N0    &kp DOT               &none    &kp DEL 
 		>;
 		};
 		
 		right_layer {
 		bindings = <
-		&kp BANG  &kp ATSN &kp HASH  &kp RET  &kp ESC    			        &kp CRRT  &kp AMPS &kp UP &kp LPRN &kp RPRN 
-		&kp HASH  &kp QMARK  &kp FSLH  &kp COLN  &kp SCLN 			        &kp MINUS &kp LEFT  &kp DOWN  &kp RIGHT   &kp BKSP
-		&kp LSFT  &kp KPLS &kp LBKT &kp RBKT   &kp BSLH    			&kp UNDER &kp LEFT &kp DOWN &kp UP  &kp RIGHT
-					  &mo 3 &kp LCTL  				&kp SPC  &mo 2 
+		&bt BT_CLR    &none   &none  &kp N0      &kp ESC                      &none  &none     &kp UP    &none      &none 
+		&bt BT_SEL 2  &none   &none  &kp EQUAL   &kp ESC                       &none  &kp LEFT  &kp DOWN  &kp RIGHT  &none
+		&bt BT_SEL 1  &none   &none  &kp MINUS   &kp RET                       &none  &kp HOME  &kp PG_DN &kp PG_UP  &kp END
+		                      &none       &kp BSLH                      &none  &none 
 		>;
 		};	
 		
 		tri_layer {
 		bindings = <
-		&kp NUM_1  &kp NUM_2    &kp NUM_3    &kp NUM_4    &kp NUM_5 			&trans &trans   &trans   &trans  &trans
-		&kp F1 &kp F2 &kp F3 &kp F4 &kp F5  						&trans &kp PG_UP  &kp K_VOL_UP &kp K_MUTE &trans 
-		&bt BT_CLR  &bt BT_NXT &bt BT_PRV &kp F6 &kp F7   				&trans &kp PG_DN  &kp K_VOL_DN  &trans &trans   
-					 &trans &trans  					&trans &trans 
+		&none   &none   &none    &none      &bt BT_CLR                  &none   &none   &none    &none      &none
+		&none   &none   &none    &none      &bt BT_SEL 2                &none   &none   &none    &none      &none 
+		&none   &none   &none    &none      &bt BT_SEL 1                &none   &none   &none    &none      &none  
+				        &none      &none 			&none   &none 
 		>;
 		};	
         
