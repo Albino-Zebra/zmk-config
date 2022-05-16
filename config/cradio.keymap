@@ -33,7 +33,7 @@
 	};
         
 
-	combo_caps-word {
+	combo_minus {
 	timeout-ms = <50>;
 	key-positions = <23 24>;
 	bindings = <&kp MINUS>;
