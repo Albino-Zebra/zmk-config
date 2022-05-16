@@ -26,9 +26,18 @@
             bindings = <&kp ESC>;
         };
         
-         
+	combo_caps-word {
+	timeout-ms = <50>;
+	key-positions = <13 16>;
+	bindings = <&caps_word>;
+	};
         
 
+	combo_caps-word {
+	timeout-ms = <50>;
+	key-positions = <23 24>;
+	bindings = <&kp MINUS>;
+	};
         
     };
 
