@@ -16,6 +16,11 @@
   tapping-term-ms = <170>;
 };
 
+&caps_word {
+	continue-list = <UNDERSCORE MINUS>;
+};
+
+
 / { 
 
     combos {
